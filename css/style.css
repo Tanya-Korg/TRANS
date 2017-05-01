@@ -1,0 +1,107 @@
+body {
+  width: 100%; }
+
+h2, h1 {
+  font-family: "Raleway";
+  font-size: 35px;
+  text-transform: uppercase;
+  color: #fff; }
+
+p, .header__link {
+  font-family: "OpenSans";
+  font-size: 14px;
+  color: #fff; }
+
+h1 {
+  font-size: 45px;
+  padding-bottom: 36px; }
+
+.sec1 {
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  background: url(../img/main-bg.jpg) center top no-repeat;
+  background-size: cover;
+  padding: 60px 0 0 10.8%;
+  position: relative;
+  height: 1240px; }
+
+.sec1__header {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row;
+      flex-flow: row;
+  padding: 0 3.5% 366px 0; }
+
+.header__nav {
+  -ms-flex: 2;
+      flex: 2; }
+
+.header__link {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 17px 3% 0 0; }
+  .header__link:hover {
+    border-bottom: 1px solid #f26522; }
+
+.sec1__p {
+  width: 25%; }
+
+.sec2 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row;
+      flex-flow: row;
+  height: 390px;
+  position: relative;
+  border-bottom: 1px solid #000;
+  position: absolute;
+  bottom: 0; }
+
+.sec2__text_orange {
+  -ms-flex: 1;
+      flex: 1;
+  background-color: #f26522;
+  width: 24%;
+  height: 778px;
+  margin-left: 28%; }
+
+.sec2__picture {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  background: url(../img/main-pic.jpg) center no-repeat;
+  background-size: cover;
+  height: 390px;
+  width: 48%; }
+
+.sec3__text {
+  margin-left: 63%; }
+
+.sec3 h2 {
+  color: #3a4d69; }
+
+.sec3 p {
+  color: #a7b3b9; }
+
+.sec5 {
+  background: url(../img/sec-bg.jpg) center no-repeat;
+  background-size: cover;
+  height: 824px;
+  position: relative; }
+  .sec5__box {
+    width: 57.5%;
+    margin-top: 360px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row;
+        flex-flow: row;
+    position: absolute;
+    bottom: 0;
+    margin-left: 13%; }
+  .sec5__h2 {
+    background-color: #f26522;
+    width: 50%;
+    padding: 108px 120px 230px 53px; }
+  .sec5__picture {
+    background: url(../img/woman.jpg) center no-repeat;
+    width: 50%; }

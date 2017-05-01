@@ -1,0 +1,129 @@
+//@import: "mixins";
+
+body{
+    width: 100%;
+}
+$primary-color: #f26522;
+$header-color1: #fff;
+$paragr-color1: #fff;
+$header-color2: #3a4d69;
+$paragr-color2: #a7b3b9;
+%header-fonts{
+font-family: "Raleway";
+font-size: 35px;
+text-transform: uppercase;
+color: $header-color1;}
+%paragr-fonts{
+    font-family: "OpenSans";
+    font-size: 14px;
+    color: $paragr-color1;
+}
+
+h2{
+    @extend %header-fonts;
+}
+p{
+    @extend %paragr-fonts;
+}
+h1{@extend %header-fonts;
+font-size: 45px;
+padding-bottom: 36px;}
+
+.sec1{
+//    @include flex;
+//    display: flex;
+//    flex-flow: row;
+    justify-content: space-between;
+    background: url(../img/main-bg.jpg) center top no-repeat;
+    background-size: cover;
+    padding: 60px 0 0 10.8%;
+    position: relative;
+    height: 1240px;
+}
+.sec1__header{
+    display: flex;
+    flex-flow: row;
+    padding: 0 3.5% 366px 0;
+}
+.header__nav{
+    flex: 2;
+}
+.header__link{
+    @extend %paragr-fonts;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 17px 3% 0 0;
+    
+    &:hover{
+        border-bottom: 1px solid $primary-color;
+    }
+}
+.sec1__p{
+    width: 25%;
+}
+
+.sec2{
+    display: flex;
+    flex-flow: row;
+    height: 390px;
+    position: relative;
+    border-bottom: 1px solid #000;
+    position: absolute;
+    bottom: 0;
+}
+.sec2__text_orange{
+    flex: 1;
+    background-color: $primary-color;
+    width: 24%;
+    height: 778px;
+    margin-left: 28%;
+}
+
+.sec2__picture{
+    position: relative;
+    right: 0;
+    bottom: 0;
+    background: url(../img/main-pic.jpg) center no-repeat;
+    background-size: cover;
+    height: 390px;
+    width: 48%;
+}
+
+
+.sec3__text{
+    margin-left: 63%;
+}
+
+.sec3 h2{
+    color: $header-color2;
+}
+.sec3 p{
+    color: $paragr-color2;
+}
+
+.sec5{
+    background: url(../img/sec-bg.jpg) center no-repeat;
+    background-size: cover;
+    height: 824px;
+    position: relative;
+   
+    &__box{
+        width: 57.5%;
+        margin-top: 360px;
+        display: flex;
+        flex-flow: row;
+        position: absolute;
+        bottom: 0;
+        margin-left: 13%;
+    }
+    &__h2{
+        background-color: $primary-color;
+        width: 50%;
+        padding: 108px 120px 230px 53px;
+    }
+    &__picture{
+        background: url(../img/woman.jpg) center no-repeat;
+        width: 50%;
+    }
+}
+
