@@ -17,8 +17,7 @@ h1 {
   padding-bottom: 36px; }
 
 .sec1 {
-  -ms-flex-pack: justify;
-      justify-content: space-between;
+  justify-content: space-between;
   background: url(../img/main-bg.jpg) center top no-repeat;
   background-size: cover;
   padding: 60px 0 0 10.8%;
@@ -26,15 +25,12 @@ h1 {
   height: 1240px; }
 
 .sec1__header {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-flow: row;
-      flex-flow: row;
+  flex-flow: row;
   padding: 0 3.5% 366px 0; }
 
 .header__nav {
-  -ms-flex: 2;
-      flex: 2; }
+  flex: 2; }
 
 .header__link {
   text-transform: uppercase;
@@ -47,10 +43,8 @@ h1 {
   width: 25%; }
 
 .sec2 {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-flow: row;
-      flex-flow: row;
+  flex-flow: row;
   height: 390px;
   position: relative;
   border-bottom: 1px solid #000;
@@ -58,8 +52,7 @@ h1 {
   bottom: 0; }
 
 .sec2__text_orange {
-  -ms-flex: 1;
-      flex: 1;
+  flex: 1;
   background-color: #f26522;
   width: 24%;
   height: 778px;
@@ -74,6 +67,9 @@ h1 {
   height: 390px;
   width: 48%; }
 
+.sec3 {
+  margin-bottom: 353px; }
+
 .sec3__text {
   margin-left: 63%; }
 
@@ -83,6 +79,16 @@ h1 {
 .sec3 p {
   color: #a7b3b9; }
 
+.sec4 {
+  margin: 0 13.25% 98px; }
+  .sec4 p, .sec4 h2 {
+    color: #a7b3b9;
+    margin-bottom: 38px; }
+  .sec4__text {
+    columns: 2; }
+  .sec4 main-text {
+    font-size: 18px; }
+
 .sec5 {
   background: url(../img/sec-bg.jpg) center no-repeat;
   background-size: cover;
@@ -91,10 +97,8 @@ h1 {
   .sec5__box {
     width: 57.5%;
     margin-top: 360px;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-flow: row;
-        flex-flow: row;
+    flex-flow: row;
     position: absolute;
     bottom: 0;
     margin-left: 13%; }
@@ -105,3 +109,45 @@ h1 {
   .sec5__picture {
     background: url(../img/woman.jpg) center no-repeat;
     width: 50%; }
+
+.sec6 {
+  background: #f26522;
+  margin-left: 13%;
+  columns: 2; }
+  .sec6 p {
+    margin-bottom: 34px; }
+
+.sec7 {
+  background: #323339;
+  margin-left: 13%;
+  padding: 61px 0 82px 4%; }
+  .sec7__form input {
+    padding: 27px 0 24px 27px;
+    margin-right: 1%;
+    border-radius: 2px; }
+  .sec7 .form__name,
+  .sec7 .form__phone {
+    width: 12.12%; }
+  .sec7 .form__email {
+    width: 18.38%; }
+  .sec7 .form__button {
+    width: 9.8%;
+    background: transparent;
+    border: 1px solid #fff;
+    text-align: center;
+    padding: 21px 0;
+    color: #fff; }
+
+.footer {
+  background: #323339;
+  display: flex;
+  flex-flow: row; }
+  .footer__block {
+    margin-left: 1%; }
+  .footer h3 {
+    color: #f26522; }
+  .footer a {
+    display: block;
+    color: #fff; }
+
+/*# sourceMappingURL=style.css.map */
